@@ -1,3 +1,7 @@
+body{
+    box-sizing: border-box;
+}
+
 *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -11,9 +15,16 @@
 .jumbotron{
     height: 50vh;
     background-size: cover;
+    
+}
+.jumbotron-override {
+    margin-bottom: 0px !important;
 }
 #sub-text{
     border-bottom: 5px solid red;
+}
+#projects{
+    padding-top: 20px;
 }
 .links{
     text-decoration: none;
@@ -24,6 +35,13 @@
     height: 5px;
     margin:40px 10px 40px 10px;
 }
+.pad{
+    padding: 20px 0 5px 0;
+}
+.yellow{
+    background-color: rgba(255, 255, 2, 0.8);
+}
+
 .bold{
     font-weight: 800;
 }
@@ -39,10 +57,12 @@
     padding: 0 7px 0 7px;
 }
 .b-red:hover{
-    border-left: 4px solid rgb(37, 37, 226);
-    border-right: 4px solid rgb(37, 37, 226);
+    border-left: 4px solid rgb(82, 82, 238);
+    border-right: 4px solid rgb(82, 82, 238);
 }
-
+.blur{
+    box-shadow: 4px 4px 5px grey;
+}
     
 
 
@@ -53,7 +73,11 @@
     .blue{
         width: 100%;
         height: 7px;
+        margin: 0 0 60px 0;
         background-color: rgb(37, 37, 226);
+    }
+    .jumbotron{
+        height: 60vh;
     }
 }
 @media only screen and (min-width:768px) {
