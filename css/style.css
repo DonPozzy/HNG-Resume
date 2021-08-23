@@ -63,7 +63,9 @@ body{
 .blur{
     box-shadow: 4px 4px 5px grey;
 }
-    
+.tb-pad{
+    Padding:10px 0 10px 0;
+}
 
 
 @media only screen and (max-width:767px) {
